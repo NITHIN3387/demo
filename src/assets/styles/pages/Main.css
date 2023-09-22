@@ -1,0 +1,22 @@
+.main{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.main .restart:hover{
+    transform: scale(1.1);
+    transition: all ease 0.2s;
+}
+
+.main .restart-btn{
+    background-color: white;
+    filter: invert(100%);
+}
+
+.main .graph{
+    box-shadow: 0 9px 28px rgba(176,190,197,.32), 0 5px 9px rgba(176,190,197,.36);
+}
+
+.main .question{
+    box-shadow: 0 9px 28px rgba(176,190,197,.32), 0 5px 9px rgba(176,190,197,.36);
+}

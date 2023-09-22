@@ -1,0 +1,4 @@
+.chatbox-navbar .active{
+    background-color: #588c04;
+    filter: invert(100%);
+}

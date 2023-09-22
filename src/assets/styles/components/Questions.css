@@ -1,0 +1,21 @@
+.questions{
+    max-height: 20rem;
+    overflow-y: auto;
+}
+
+.questions::-webkit-scrollbar{
+    display: none;
+}
+
+.questions ol{
+    list-style: lower-alpha;
+}
+
+.questions li{
+    margin: 1rem 0;
+}
+
+.questions .active{
+    color: black;
+    font-weight: 700;
+}

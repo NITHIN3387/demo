@@ -1,0 +1,22 @@
+.answer{
+    min-height: 20rem;
+    max-height: 20rem;
+    overflow-y: auto;
+}
+
+.answer::-webkit-scrollbar{
+    display: none;
+}
+
+.answer ol{
+    list-style: lower-alpha;
+}
+
+.answer li{
+    margin: 1rem 0;
+}
+
+.answer .active{
+    color: black;
+    font-weight: 700;
+}

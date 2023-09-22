@@ -1,0 +1,32 @@
+.main-navbar{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.main-navbar .active{
+    background-color: #588c04;
+    filter: invert(100%);
+    animation: transition-list ease 0.2s;
+}
+
+/* .main-navbar .active::before{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 0.5rem;
+    height: 71.53px;
+    right: -2.5rem;
+    border-radius: 0.5rem;
+    top: 0;
+    background-color: #588c04;
+} */
+
+@keyframes transition-list {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
