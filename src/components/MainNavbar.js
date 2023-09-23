@@ -24,7 +24,7 @@ export default function MainNavbar() {
                 <Link to='/main' className="row px-2 py-3 my-4 active rounded-4 list" onClick={() => handleActiveTab(0)}>
                     <img src={Camera} alt="" />
                 </Link>
-                <Link to='/main' className="row px-2 py-3 my-4 rounded-4 list" onClick={() => handleActiveTab(1)}>
+                <Link to='/main/score' className="row px-2 py-3 my-4 rounded-4 list" onClick={() => handleActiveTab(1)}>
                     <img src={List} alt="" />
                 </Link>
             </div>

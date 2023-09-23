@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import HomeLayout from './layout/HomeLayout';
 import MainLayout from './layout/MainLayout';
 import Main from './pages/Main';
+import Score from './pages/Score';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         </Route>
         <Route path='/main/*' element={<MainLayout />}>
           <Route path='*' element={<Main />} />
+          <Route path='score' element={<Score />} />
         </Route>
       </Routes>
     </BrowserRouter>

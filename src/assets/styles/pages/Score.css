@@ -1,0 +1,20 @@
+.score{
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.score .restart:hover{
+    transform: scale(1.1);
+    transition: all ease 0.2s;
+}
+
+.score .restart-btn{
+    background-color: white;
+    filter: invert(100%);
+}
+
+.score .prognosis{
+    box-shadow: 0 9px 28px rgba(176,190,197,.32), 0 5px 9px rgba(176,190,197,.36);
+    transform: translateX(-2rem);
+}

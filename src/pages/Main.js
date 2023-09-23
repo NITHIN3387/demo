@@ -39,7 +39,7 @@ export default function Main() {
             <section className='container-fluid'>
                 <div className="row">
                     <div className="camera col-9 mt-4 text-center">
-                        <video id="camera" className='rounded-4' autoPlay></video>
+                        <video id="camera" className='rounded-4' width={810} autoPlay></video>
                     </div>
                     <aside className='question col-3 bg-light rounded-4 mt-4'>
                         <Routes>
@@ -50,7 +50,7 @@ export default function Main() {
                         </Routes>
                     </aside>
                 </div>
-                <div className="row">
+                <div className="row mt-4">
                     <div className="col-9 d-flex">
                         <div className="graph text-center rounded-3 mx-auto col-3 my-3 px-5 py-3 bg-light">
                             <div className="fs-3 fw-bold">Heart Rate</div>
